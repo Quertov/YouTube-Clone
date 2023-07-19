@@ -1,0 +1,158 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    height: 55px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left-section {
+    width: 185px;
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.ytb-logo {
+    height: 24px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 450px;
+}
+
+.ytb-input {
+    width: 100%;
+    border-width: 1px;
+    outline: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 450px;
+    border-right: none;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+.right-section {
+    width: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 25px;
+
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 64px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-right: 15px;
+}
+
+.microphone-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.microphone-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.tooltip-icon:hover + .tip,
+.notifications-container:hover + .tip,
+.search-container:hover + .tip,
+.microphone-container:hover + .tip {
+    opacity: 0.8;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notification-count {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #cc0000;
+    border-radius: 80px;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.tip {
+    background-color: rgba(96, 96, 96, 0.8);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 150ms;
+    position: absolute;
+    top: 30px;
+    cursor: default;
+}
