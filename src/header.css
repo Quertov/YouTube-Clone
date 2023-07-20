@@ -1,0 +1,178 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", Arial;
+}
+
+header {
+    display: flex;
+    height: 57px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    position: fixed;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+}
+
+.left-section {
+    width: 185px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.ytb-logo {
+    height: 20px;
+    cursor: pointer;
+}
+
+.ytb-logo-link {
+    height: 20px;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 461px;
+}
+
+.ytb-input {
+    width: 100%;
+    border-width: 1px;
+    outline: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 450px;
+    border-right: none;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+.right-section {
+    width: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 25px;
+    flex-direction: row;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 84px;
+    border: 1px solid #cccccc;
+    
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-right: 15px;
+}
+
+.microphone-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.microphone-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.tooltip-icon:hover + .tip,
+.notifications-container:hover + .tip,
+.search-container:hover + .tip,
+.microphone-container:hover + .tip {
+    opacity: 0.8;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notification-count {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #cc0000;
+    border-radius: 80px;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.tip {
+    background-color: rgba(96, 96, 96, 0.8);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 150ms;
+    position: absolute;
+    top: 30px;
+    cursor: default;
+}
