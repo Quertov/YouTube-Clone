@@ -13,7 +13,6 @@
     top: 57px;
     width: 72px;
 }
-
 .sidebar-link {
     cursor: pointer;
     display: flex;
@@ -23,7 +22,6 @@
     align-items: center;
     height: 74px;
 }
-
 .sidebar-link img {
     height: 24px;
     margin-bottom: 5px;

@@ -16,6 +16,7 @@ body {
     column-gap: 16px;
     row-gap: 40px;
     padding: 20px;
+    background-color: rgb(245, 245, 245);
 }
 
 @media (max-width: 869px) and (min-width: 655px) {
