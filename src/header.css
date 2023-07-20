@@ -7,7 +7,7 @@ body {
 
 header {
     display: flex;
-    height: 55px;
+    height: 57px;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -28,6 +28,9 @@ header {
 
 .left-section {
     width: 185px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .hamburger-menu {
@@ -39,8 +42,12 @@ header {
 }
 
 .ytb-logo {
-    height: 24px;
+    height: 20px;
     cursor: pointer;
+}
+
+.ytb-logo-link {
+    height: 20px;
 }
 
 .middle-section {
@@ -48,7 +55,7 @@ header {
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
-    max-width: 450px;
+    max-width: 461px;
 }
 
 .ytb-input {
@@ -75,7 +82,7 @@ header {
     justify-content: space-between;
     margin-left: 30px;
     margin-right: 25px;
-
+    flex-direction: row;
 }
 
 .search-icon {
@@ -85,7 +92,7 @@ header {
 
 .search-btn {
     height: 40px;
-    width: 64px;
+    width: 84px;
     border: 1px solid #cccccc;
     
     border-top-right-radius: 2px;
