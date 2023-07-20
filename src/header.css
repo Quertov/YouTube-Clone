@@ -2,15 +2,20 @@ html,
 body {
     padding: 0;
     margin: 0;
+    padding-bottom: 300px;
     font-family: "Roboto", Arial;
 }
 
 header {
     display: flex;
     height: 55px;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    position: fixed;
     margin-bottom: 20px;
 }
 
@@ -43,7 +48,8 @@ header {
     width: 100%;
     border-width: 1px;
     outline: none;
-    border-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
     border-style: solid;
     border-color: #cccccc;
     padding-left: 13px;
@@ -74,7 +80,7 @@ header {
     height: 40px;
     width: 64px;
     border: 1px solid #cccccc;
-    border-left: none;
+    
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     background-color: #f7f7f7;

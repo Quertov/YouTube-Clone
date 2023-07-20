@@ -5,6 +5,10 @@ body {
     font-family: "Roboto", Arial;
 }
 
+.main {
+    padding-top: 57px;
+}
+
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
