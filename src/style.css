@@ -18,9 +18,8 @@ body {
     padding: 20px;
 }
 
-.thumbnail-container {
+.video-thumbnail {
     position: relative;
-    box-sizing: border-box;
 }
 
 .thumbnail {
@@ -87,13 +86,13 @@ body {
 
 .video-time {
     position: absolute;
-    bottom: 7px;
+    bottom: 10px;
     right: 4px;
     background-color: black;
     color: white;
     border-radius: 2px;
     opacity: 0.9;
-    padding: 2px 4px;
+    padding: 4px;
     font-size: 12px;
     font-weight: 500;
 }
