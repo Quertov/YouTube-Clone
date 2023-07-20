@@ -84,11 +84,13 @@ body {
 
 .video-time {
     position: absolute;
+    bottom: 7px;
+    right: 4px;
     background-color: black;
     color: white;
     border-radius: 2px;
     opacity: 0.9;
     padding: 2px 4px;
-    width: 38px;
+    font-size: 12px;
     font-weight: 500;
 }
