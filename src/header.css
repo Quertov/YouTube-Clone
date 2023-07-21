@@ -91,10 +91,9 @@ header {
 }
 
 .search-btn {
-    height: 40px;
+    height: 41px;
     width: 84px;
     border: 1px solid #cccccc;
-    
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     background-color: #f7f7f7;
